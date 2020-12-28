@@ -1,4 +1,4 @@
-let baseURL = 'http://ron-swanson-quotes.herokuapp.com/v2/quotes';
+let baseURL = 'https://ron-swanson-quotes.herokuapp.com/v2/quotes';
 
 let quoteContainer = document.querySelector('.quoteContainer');
 let logo = document.getElementById('ronLogo');
