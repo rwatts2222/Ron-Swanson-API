@@ -33,11 +33,11 @@ let displayQuote = json => {
 
     console.log(json[0].length);
     if (json[0].length >= 50 && json[0].length <= 150) {
-        quote.style.fontSize = '5rem';
+        quote.style.fontSize = '4rem';
     } else if (json[0].length < 50) {
-        quote.style.fontSize = '7rem'
+        quote.style.fontSize = '5rem'
     } else {
-        quote.style.fontSize = '3.5rem';
+        quote.style.fontSize = '2rem';
     }   
 
     let button = document.createElement('button');
